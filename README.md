@@ -1,2 +1,2 @@
 # Scrapers
-This repository contains web scraping tools. 
+This repository contains data mining tools. 
