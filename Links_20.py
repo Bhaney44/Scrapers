@@ -6,7 +6,7 @@ import re
 
 ##Internet
 #Link to webpage 
-web_page = urlopen("http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=31&f=G&l=50&co1=AND&d=PTXT&s1=(%22deep+learning%22.CLTX.+or+%22deep+learning%22.DCTX.)&OS=ACLM/%22deep+learning%22")
+web_page = urlopen("LINK")
 #Soup object
 soup = BeautifulSoup(web_page, 'html.parser')
 
@@ -26,7 +26,7 @@ get_title()
 def get_link():
     ##Internet
     #Link to webpage 
-    html = urlopen("http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=31&f=G&l=50&co1=AND&d=PTXT&s1=(%22deep+learning%22.CLTX.+or+%22deep+learning%22.DCTX.)&OS=ACLM/%22deep+learning%22")
+    html = urlopen("LINK")
     #Soup object
     soup = BeautifulSoup(html, 'html.parser')
     #Find image
