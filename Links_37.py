@@ -42,7 +42,7 @@ def get_data():
     image = soup.find("img", valign="MIDDLE", alt="[NEXT_DOC]")
     link = image.parent
     new_link = link.attrs['href']
-    new_page = urlopen('http://patft.uspto.gov/'+new_link)
+    new_page = urlopen('Link'+new_link)
     soup = BeautifulSoup(new_page, 'html.parser')
     #Patent Number
     Patent_Number = soup.title.text
@@ -75,7 +75,7 @@ def get_data():
     image = soup.find("img", valign="MIDDLE", alt="[NEXT_DOC]")
     link = image.parent
     new_link = link.attrs['href']
-    new_page = urlopen('http://patft.uspto.gov/'+new_link)
+    new_page = urlopen('LINK'+new_link)
     soup = BeautifulSoup(new_page, 'html.parser')
     #Patent Number 
     Patent_Number = soup.title.text
@@ -108,7 +108,7 @@ def get_data():
     image = soup.find("img", valign="MIDDLE", alt="[NEXT_DOC]")
     link = image.parent
     new_link = link.attrs['href']
-    new_page = urlopen('http://patft.uspto.gov/'+new_link)
+    new_page = urlopen('LINK'+new_link)
     soup = BeautifulSoup(new_page, 'html.parser')
     #Patent Number
     Patent_Number = soup.title.text
