@@ -21,7 +21,7 @@ def getAddresses(pageURL):
     soup = BeautifulSoup(html, 'html.parser')
 
 
-html = urlopen("https://algoscan.app/address/6G5V4U2MCW5TIZ7JP6BZFQELTGGJBEG5EVSQRQQRLEZM3V6DXOPV5TUJQA")
+html = urlopen("")
 #Soup object
 soup = BeautifulSoup(html, 'html.parser')
 for i in soup.find_all('td'):
